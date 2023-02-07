@@ -5,11 +5,11 @@
 
 //Public methods
 Chess::Chess() {
-    std::cout << "Hello, we are gonna initialiaze a new chess game !" << std::endl;
+    this->reset();
 }
 
 void Chess::reset() {
-
+    std::cout << "We will initialize a new game";
 }
 
 void Chess::movePiece(std::string move) {
