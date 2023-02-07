@@ -17,4 +17,5 @@ class Chess {
         bool isAStalemat();
         bool isADraw();
         bool isAMatPos();
+        static const std::array<std::string, 32> namePieces;
 };

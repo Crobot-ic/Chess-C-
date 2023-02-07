@@ -3,7 +3,6 @@
 
 int main() {
     Chess game;
-    std::cout << game.isEnded() << std::endl;
 
     return 0;
 }

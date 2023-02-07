@@ -1,11 +1,11 @@
 all:
 	@clear
-	@g++ -o Main main.cpp ./Chess/Chess.cpp ./Cell/Cell.cpp ./Piece/Piece.cpp ./Utils/Utils.cpp
+	@g++ -o Main main.cpp ./Chess/Chess.cpp ./Piece/Piece.cpp 
 	@./Main
 	@ rm ./Main
 
 build: 
-	@g++ -o Main main.cpp ./Chess/Chess.cpp ./Cell/Cell.cpp ./Piece/Piece.cpp./Utils/Utils.cpp
+	@g++ -o Main main.cpp ./Chess/Chess.cpp ./Piece/Piece.cpp
 
 run:
 	@./Main
